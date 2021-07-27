@@ -71,5 +71,5 @@ variable "vpn_ssl_pool" {
 #var.k8s_version
 variable "k8s_version" {
   description = "Version of K8s for node's AMI to use"
-  default     = "1.11"
+  default     = "1.18"
 }
